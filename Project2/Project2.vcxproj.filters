@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Thomas and Bob">
+      <UniqueIdentifier>{35cf9001-9dee-46cb-a06b-5b8c29f6df0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LevelManager">
+      <UniqueIdentifier>{5b255835-770f-4620-881c-c0fc461d55f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\importent funcs">
+      <UniqueIdentifier>{209d993d-723c-4b06-be50-913dab2fc22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Sound">
+      <UniqueIdentifier>{f7d1cc06-0a96-47a2-b751-6397cbbf9114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\HUD">
+      <UniqueIdentifier>{18a3ca67-4cae-4a0e-8abe-d805b694779b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Shaders">
+      <UniqueIdentifier>{96284036-4c6a-4eb9-bc09-e46e92821fbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextureHolder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Исходные файлы\importent funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Исходные файлы\importent funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>Исходные файлы\importent funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayableCharacter.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Bob.cpp">
+      <Filter>Исходные файлы\Thomas and Bob</Filter>
+    </ClCompile>
+    <ClCompile Include="Thomas.cpp">
+      <Filter>Исходные файлы\Thomas and Bob</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Исходные файлы\LevelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadLevel.cpp">
+      <Filter>Исходные файлы\importent funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectCollisions.cpp">
+      <Filter>Исходные файлы\importent funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Исходные файлы\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="PopulateAmmiters.cpp">
+      <Filter>Исходные файлы\importent funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Исходные файлы\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureHolder.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayableCharacter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bob.h">
+      <Filter>Исходные файлы\Thomas and Bob</Filter>
+    </ClInclude>
+    <ClInclude Include="Thomas.h">
+      <Filter>Исходные файлы\Thomas and Bob</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Исходные файлы\LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Исходные файлы\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Исходные файлы\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
